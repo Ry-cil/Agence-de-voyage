@@ -183,13 +183,22 @@ header nav ul li
 }
 #possibilities article
 {
-    background-image: url(images/article-image-1.jpg);
     width: 460px;
     height: 270px;
     float: left;
     border-radius: 10px;
     margin-right: 350px;
 }
+#article1
+{
+    background-image: url(images/article-image-1.jpg);
+}
+
+#article2
+{
+    background-image: url(images/article-image-2.jpg);
+}
+
 #possibilities article:first-child
 {
     margin-left: 350px;
