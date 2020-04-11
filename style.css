@@ -6,24 +6,80 @@
 header
 {
   display: flex;
+  height: 6em;
+}
+.button
+{
+  display: flex;
+  border-radius: 3px;
+  background-color: #ff7a00;
+  color: white;
+}
+strong
+{
+  font-weight: bold;
 }
 
 /* HEADER */
 
 h1
 {
-  margin-top: 2em;
+  margin-top: 1em;
+  margin-left: 15%;
   color: #444;
 }
 .point
 {
   color: #ff7a00;
 }
+nav
+{
+  margin-top: 2.5em;
+  margin-left: 40%;
+}
 nav ul
 {
-  margin-top: 2em;
   list-style-type: none;
   display: flex;
-  min-width: 10em;
+  min-width: 20em;
   justify-content: space-around;
+  margin-left: 2%;
+
+}
+li
+{
+  margin-left: 1em;
+  text-transform: uppercase;
+}
+
+/* SECTION PONTON */
+
+#ponton
+{
+  display: flex;
+  /*grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(4, 25%);*/
+  justify-content: center;
+  align-items: center;
+  height: 25em;
+  background: url(images/main.jpg) no-repeat;
+  flex-direction: column;
+}
+h2
+{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 3em;
+  width: 15em;
+}
+.button
+{
+  font-size: 1.2em;
+  margin-top: 3em;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 1em;
+  height: 1.2em;
+  width: 3.5em;
 }
