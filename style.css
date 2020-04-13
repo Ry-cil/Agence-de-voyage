@@ -17,6 +17,7 @@ header
   border-radius: 4px;
   background-color: #ff7a00;
   color: white;
+  max-width: 5em;
 }
 .button:hover
 {
@@ -156,5 +157,5 @@ li
 }
 #article_2
 {
-  background-color : rgba(255, 255, 255, 1);
+  background: url(images/article-image-2.jpg);
 }
