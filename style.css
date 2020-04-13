@@ -56,6 +56,8 @@ h3
 h4
 {
    font-size: 1.5em;
+   text-align: center;
+   border-bottom: 2px turquoise solid;
 }
 p
 {
@@ -150,10 +152,6 @@ li
   height: 5%;
   width: 20%;
   margin: 5%;
-}
-#articles div button
-{
-  
 }
 #article_1
 {
