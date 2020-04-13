@@ -18,6 +18,10 @@ header
   background-color: #ff7a00;
   color: white;
 }
+.button:hover
+{
+  background-color: aqua;
+}
 strong
 {
   font-weight: bold;
@@ -131,22 +135,26 @@ li
 {
   display: flex;
   justify-content: center;
+  background-color: #efefef;
 }
 
 #articles div
 {
   text-align: center;
+  border-radius: 5px;
   height: 5%;
   width: 20%;
   margin: 5%;
+}
+#articles div button
+{
+  
 }
 #article_1
 {
   background: url(images/article-image-1.jpg);
 }
-#articles_2
+#article_2
 {
-  background: url(images/article-image-2.jpg)
+  background-color: rgba(255, 255, 255, 1);
 }
-
-
