@@ -14,7 +14,7 @@
           <li href="#">Accueil</li>
           <li href="#">Destinations</li>
           <li href="#">Circuits</li>
-          <li href="#">Contact</li>
+          <li href="contacteznous">Contact</li>
         </ul>
       </nav>
     </header>
@@ -22,7 +22,7 @@
     <section id="ponton">
       <h2>organisez votre<br />
       <strong class="bold">voyage sur mesure</strong></h2>
-        <a class="button" id="button1">Par ici</a>
+        <a class="button" id="button_1">Par ici</a>
     </section>    
 
     <section id="main">
@@ -50,21 +50,21 @@
     <section id="articles">
       <div id="article_1">
         <h3>Partez en famille</h3>
-        <p><small>le meilleur à ceux que vous aimez 
-          et partagez des moments fabuleux !</small></p>
-        <a class="button" id="button2">Plus d'infos</a>
+        <p>le meilleur à ceux que vous aimez 
+          et partagez des moments fabuleux !</p>
+        <a class="button" id="button_2">Plus d'infos</a>
       </div>
 
       <div id="article_2";>
         <h3>Envie de s'évader</h3>
-        <p><small>un peu d’évasion serait le bienvenue et ferait le plus grand bien !</small> </p>
-        <a class="button" id="button3">Plus d'infos</a>
+        <p>un peu d’évasion serait le bienvenue et ferait le plus grand bien !</p>
+        <a class="button" id="button_2">Plus d'infos</a>
       </div>
     </section>
 
     <section id="contact">
       <h4>Contactez-nous</h4>
-        <p>Chez Travel Agency nous savons que voyager est une aventure humaine 
+        <p class="contacteznous">Chez Travel Agency nous savons que voyager est une aventure humaine 
           mais également un engagement financier important pour vous. 
           C'est pourquoi nous mettons un point d'honneur à prendre en compte chacune 
           de vos attentes pour vous aider dans la préparation de votre séjour, 
@@ -72,11 +72,21 @@
         
         <form method="POST" action="traitement.php">
           <p>
-            <label for="nom">Nom :</label>
+            <label for="nom">Nom </label>
             <input type="text" name="nom" id="nom" placeholder="Votre nom"/>
           </p>
+          <p>
+            <label for="email">Email </label>
+            <input type="text" name="email" id="email" placeholder="Votre email"/>
+          </p>
+          <a class="button" id="button_3">OK</a>
         </form>
     </section>
+  
+    <footer>
+      <h1>Travel Agency<span class="point">.</span></h1>
+      <p>Copyright © Tous droits réservés.</p>
+    </footer>
   </body>
 
 </html>
