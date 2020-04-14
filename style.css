@@ -55,9 +55,7 @@ h3
 }
 h4
 {
-   font-size: 1.5em;
-   text-align: center;
-   border-bottom: 2px turquoise solid;
+  font-size: 1.5em;
 }
 p
 {
@@ -120,7 +118,11 @@ li
 {
   margin: 3%;
   height: 15em;
-  width: 17%; 
+  max-width: 15%; 
+}
+#main div p
+{
+  width: 19em;
 }
 #step1
 {
@@ -155,9 +157,32 @@ li
 }
 #article_1
 {
-  background: url(images/article-image-1.jpg);
+  text-align: center;
+  background: url(images/article-image-1.jpg) no-repeat;
 }
 #article_2
 {
-  background: url(images/article-image-2.jpg);
+  background: url(images/article-image-2.jpg) no-repeat;
+}
+
+
+/* -- SECTION CONTACT -- */
+
+#contact
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#contact h4
+{
+  border-bottom: 1px turquoise solid;
+  width: 12em;
+}
+#contact p
+{
+  background-color: tomato;
+  width: 50%;
 }
