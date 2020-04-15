@@ -192,6 +192,7 @@ li
   align-items: center;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 1em;
 }
 #contact h4
 {
@@ -217,7 +218,6 @@ li
 }
 #button_3
 {
-  margin-top: 0.5em;
   font-size: 1em;
   padding: 5px 0.1px;
   height: 0.9em;
